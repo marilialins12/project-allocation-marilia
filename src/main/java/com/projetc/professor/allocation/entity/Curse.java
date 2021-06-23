@@ -8,7 +8,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-@Entity
+@Entity // A grafia correta é Course
 public class Curse {
 	
 	@Id
@@ -20,6 +20,7 @@ public class Curse {
 	@Column(nullable = false, unique = false)
 	private String name;
 	
+	// Falta o relacionamento com alocação
 	
 	public Curse() {
 		super();

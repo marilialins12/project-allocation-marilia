@@ -22,6 +22,7 @@ public class Professor {
 	@ManyToOne(optional = false)
 	private Departament departament;
 	
+	// Falta o relacionamento com alocação
 	
 	public Professor() {
 		super();

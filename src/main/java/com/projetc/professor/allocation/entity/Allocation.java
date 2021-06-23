@@ -32,6 +32,10 @@ public class Allocation {
 	@Column(nullable = false, unique = false)
 	private Date end;
 	
+	// Falta o relacionamento com professor
+	
+	// Falta o relacionamento com curso
+	
 	public Allocation() {
 		super();
 	}
